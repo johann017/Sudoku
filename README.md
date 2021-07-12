@@ -1,11 +1,13 @@
 # Sudoku
 
 ## Setup
-To run 'Sudoku.py':
-  '''python Sudoku.py'''
+To run `Sudoku.py`:
+
+- `python Sudoku.py`
   
-To run 'Sudoku.py':
-  '''python SudokuGUI.py'''
+To run `Sudoku.py`:
+
+- `python SudokuGUI.py`
 
 
 ## Introduction

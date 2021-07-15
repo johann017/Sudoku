@@ -35,7 +35,6 @@ class Cube:
             text = fnt.render(str(self.value), 1, (0, 0, 0))
             win.blit(text, (x + (gap/2 - text.get_width()/2), y + (gap/2 - text.get_height()/2)))
             
-        #C
         if self.selected:
             pygame.draw.rect(win, (255,0,0), (x,y, gap ,gap), 3)
 
@@ -74,7 +73,7 @@ class Grid:
     def update_model(self):
         self.model = [[self.cubes[i][j].value for j in range(self.cols)] for i in range(self.rows)]
 
-    #This handes
+    #This handles placing a vlue into the board and checking if it is correct
     def place(self, val):
         row, col = self.selected
         if self.cubes[row][col].value == -1:
@@ -88,7 +87,7 @@ class Grid:
                 self.update_model()
                 return False
             
-    #This handles when the square is selected and a value is give
+    #This handles when the square is selected and a value is given
     def sketch(self, val):
         row, col = self.selected
         self.cubes[row][col].set_temp(val)

@@ -11,7 +11,7 @@ board = [
     [4,-1,-1,5,-1,-1,-1,-1,-1]
 ]
 
-#Array of 
+#Array of empty squares
 e = []
 
 #Function to print the board with the traditional Sudoku squares
@@ -29,15 +29,19 @@ def print_board(bo):
             else:
                 print(str(bo[i][j]) + " ", end="")
 
+#Initializes the board and e variables.
 def __init__(self, b):
     board = b
     e = emptys()
 
+#Checks if a square is empty
 def is_empty(bo, x,y):
     if (bo[x][y] == -1):
         return True
     return False
 
+#Checks if the value passed in is already in the row, column or its own
+#3X3 square.
 def exist(bo, val, x, y):
     row = 0
     col = 0
@@ -64,7 +68,8 @@ def exist(bo, val, x, y):
                 return True
     return False
 
-#Should function as described
+#Gets all the empty squares on the board by checking if
+#each square is empty or not.
 def emptys(b):
     for i in range(len(b)):
         tmp = []
@@ -72,16 +77,21 @@ def emptys(b):
             if is_empty(b,i,j):
                 tmp.append((i,j))
         e.append(tmp)
-            
+
+#Finds the next empty square.
 def find_next_empty(b):
     ret = (0,0)
     for i in range(len(b)):
         for j in range(len(b[i])):
-            if (is_empty(b,i,j)):     # and (ret == (0,0))):
+            if (is_empty(b,i,j)):
                 ret = (i,j)
     return ret
 
-#Should be recursive
+#This function solves the board. It find the next emoty square and
+#then tries a number 1-10 to c if it exists. It uses recursion to 
+#go ahead and try each number, that way if a value is wrong, it goes
+#back one state and continue from there, thus creating the backtracking
+#algorithm
 def solve(b):
     (i,j) =  find_next_empty(b)
     if is_empty(b,i,j):
@@ -96,6 +106,8 @@ def solve(b):
     else: 
         return True
 
+#Prints the original board then solves it and
+#prints the solution.
 print_board(board)
 solve(board)
 print("___________________")

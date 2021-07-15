@@ -1,3 +1,4 @@
+#Board to be solved. -1's represent empty squares
 board = [
     [-1,-1,-1,-1,-1,5,-1,-1,4],
     [2,-1,8,-1,-1,-1,6,-1,9],
@@ -9,7 +10,11 @@ board = [
     [3,-1,9,-1,-1,-1,5,-1,2],
     [4,-1,-1,5,-1,-1,-1,-1,-1]
 ]
+
+#Array of 
 e = []
+
+#Function to print the board with the traditional Sudoku squares
 def print_board(bo):
     for i in range(len(bo)):
         if i % 3 == 0 and i != 0:

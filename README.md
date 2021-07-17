@@ -20,3 +20,9 @@
 
 ## Description
 This project features two parts: a Sudoku solver and a GUI meant for users to play with. The Sudoku solver utilizes the backtracking algorithm in which the algorithm goes back one step if the previous step is wrong and uses that to determine a solution for the given board. The GUI displays the board and offers an interactive interface which allows users to click and type their answers out and the GUI will display a red X if the solution present is wrong and place it in the square if it is correct.
+<p align="center">
+   <img src="https://github.com/johann017/Sudoku/blob/22c2899e21ec943ff8df87d246e701dee6d66c53/Screenshots/SudokuBoard.PNG" />
+</p>
+<p align="center">
+   <img src="https://github.com/johann017/Sudoku/blob/22c2899e21ec943ff8df87d246e701dee6d66c53/Screenshots/SudokuPlacement.PNG" />
+</p>

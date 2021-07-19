@@ -1,23 +1,5 @@
 # Sudoku
 
-## Setup
-- Install [GitHub CLI](https://cli.github.com/) and connect to GitHub account
-- Open Git CMD
-- Run `gh repo clone johann017/Sudoku` in the command line
-
-`Sudoku.py`:
-- To run this, type the following in to the command line:
-  ```
-  python Sudoku.py
-  ```
-  
-`SudokuGUI.py`:
-- To run this, type the following in to the command line:
-  ```
-  python SudokuGUI.py
-  ```
-
-
 ## Description
 - #### Overview: 
     - This project features a Sudoku solver and a GUI where users can play.
@@ -38,3 +20,20 @@
 <p align="center">
    <img src="https://github.com/johann017/Sudoku/blob/9bf7a2a44c3106e9e2e905712db680b2249a769d/Screenshots/Correct.PNG" width = "250"     height = "250"/>
 </p>
+
+## Setup
+- Install [GitHub CLI](https://cli.github.com/) and connect to GitHub account
+- Open Git CMD
+- Run `gh repo clone johann017/Sudoku` in the command line
+
+`Sudoku.py`:
+- To run this, type the following in to the command line:
+  ```
+  python Sudoku.py
+  ```
+  
+`SudokuGUI.py`:
+- To run this, type the following in to the command line:
+  ```
+  python SudokuGUI.py
+  ```

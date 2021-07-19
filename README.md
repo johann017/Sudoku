@@ -16,7 +16,7 @@
    <img src="https://github.com/johann017/Sudoku/blob/9bf7a2a44c3106e9e2e905712db680b2249a769d/Screenshots/Incorrect.PNG" width = "250"     height = "250"/>
 </p>
 
-<h3 align="center">Correct Placement (As a next move,user places a 1 in the first square)</h3>
+<h3 align="center">Correct Placement (As a next move, user places a 1 in the first square)</h3>
 <p align="center">
    <img src="https://github.com/johann017/Sudoku/blob/9bf7a2a44c3106e9e2e905712db680b2249a769d/Screenshots/Correct.PNG" width = "250"     height = "250"/>
 </p>

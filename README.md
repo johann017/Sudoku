@@ -24,10 +24,10 @@
 - #### Details: 
     - The Sudoku solver utilizes the backtracking algorithm that goes back a step if the previous step is wrong and determines the solution for the given board. The GUI displays the board and offers an interactive interface where users can input their answers. If the answer is correct, the GUI places the value in the square, else it displays a red X instead.
     
-<h3 align="left">Board</h3>    
-<p align="center">
-   <img src="https://github.com/johann017/Sudoku/blob/22c2899e21ec943ff8df87d246e701dee6d66c53/Screenshots/SudokuBoard.PNG" width = "250"     height = "250"/>
-</p>
+<h3 align="left">GUI Board</h3>    
+  <p align="left">
+     <img src="https://github.com/johann017/Sudoku/blob/22c2899e21ec943ff8df87d246e701dee6d66c53/Screenshots/SudokuBoard.PNG" width = "250"     height = "250"/>
+  </p>
 
 <h3 align="center">Incorrect Placement</h3>
 <p align="center">

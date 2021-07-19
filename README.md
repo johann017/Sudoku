@@ -28,5 +28,8 @@
    <img src="https://github.com/johann017/Sudoku/blob/22c2899e21ec943ff8df87d246e701dee6d66c53/Screenshots/SudokuBoard.PNG" width = "250"     height = "250"/>
 </p>
 <p align="center">
-   <img src="https://github.com/johann017/Sudoku/blob/22c2899e21ec943ff8df87d246e701dee6d66c53/Screenshots/SudokuPlacement.PNG" width = "250" height = "250"/>
+   <img src="https://github.com/johann017/Sudoku/blob/9bf7a2a44c3106e9e2e905712db680b2249a769d/Screenshots/Incorrect.PNG" width = "250"     height = "250"/>
+</p>
+<p align="center">
+   <img src="https://github.com/johann017/Sudoku/blob/9bf7a2a44c3106e9e2e905712db680b2249a769d/Screenshots/Correct.PNG" width = "250"     height = "250"/>
 </p>

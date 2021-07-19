@@ -1,8 +1,8 @@
 # Sudoku
 
 ## Setup
-- Install [GitHub CLI](https://cli.github.com/) and connect it with GitHub account
-- Open up Git CMD
+- Install [GitHub CLI](https://cli.github.com/) and connect to GitHub account
+- Open Git CMD
 - Run `gh repo clone johann017/Sudoku` in the command line
 
 `Sudoku.py`:

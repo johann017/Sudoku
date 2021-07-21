@@ -27,12 +27,14 @@
 - Run `gh repo clone johann017/Sudoku` in the command line
 
 `Sudoku.py`:
+- Move into the Sudoku directory
 - To run this, type the following in to the command line:
   ```
   python Sudoku.py
   ```
   
 `SudokuGUI.py`:
+- Move into the Sudoku directory
 - To run this, type the following in to the command line:
   ```
   python SudokuGUI.py
